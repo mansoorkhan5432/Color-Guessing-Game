@@ -1,0 +1,75 @@
+.body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Monserrat";
+}
+
+.box {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 30%;
+    background-color: chartreuse;
+    padding-bottom: 30%;
+    margin: 1.6%;
+    border-radius: 15%;
+    transition: background-color 0.6s;
+}
+
+.stripe {
+    height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    text-transform: uppercase;
+    background-color: steelblue;
+    font-weight: normal;
+    margin: 0;
+    font-size: 170%;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+button {
+    color: steelblue;
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: inherit;
+    height: 100%;
+    transition: all .3s;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+
+.mode:focus {
+    outline: none;
+}
